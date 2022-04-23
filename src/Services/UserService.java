@@ -23,4 +23,11 @@ public class UserService {
         return userDao.getAllUsers();
     }
     
+    public void DeleteBook(int bookId) throws SQLException {
+        userDao.DeleteBook(bookId);
+    }
+    
+    public void AddBook(User user) throws SQLException {
+        userDao.AddBook(user);
+    }
 }

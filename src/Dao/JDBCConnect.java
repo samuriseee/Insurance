@@ -15,7 +15,7 @@ import java.sql.SQLException;
  */
 public class JDBCConnect {
         public static Connection getJDBCConnection() throws SQLException {
-        final String url = "jdbc:sqlserver://HOME-SINGLE:1433;databaseName = QuanLyBaoHiem";
+        final String url = "jdbc:sqlserver://HOME-SINGLE:1433;databaseName = QuanLi_BH";
         final String login = "sa";
         final String password = "cabber123";
         
